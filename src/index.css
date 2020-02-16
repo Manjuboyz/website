@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,66 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+body{
+  background: white;/* fallback for old browsers */
 }
+
+.Box{
+border: 2px solid black;
+margin: 5em;
+
+}
+.Title_Block{  
+  display: inline-block;
+  background-color: black;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  margin-top:1%;
+}
+
+.Card_Settings{
+  border: 2px solid teal;
+  height: 580px;
+  width: 585px;
+}
+
+.Main_Container{
+  background: #8E0E00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+height: 650px;
+width:auto;
+}
+
+ .Grid_Container{
+
+   border:1px solid red;
+   margin: 1em;
+   align-items: center;
+ }
+ .Skill_Container{
+  border:1px solid teal;
+  margin: 1em;
+ }
+ .Experience_Container{
+  border:1px solid red;
+  margin: 1em;
+ }
+ .Projects_Container{
+  border:1px solid teal;
+  margin: 1em;
+ }
+ .Contact_Container{
+  border:1px solid red;
+  margin: 1em;
+ }
+
+
+ /* Image card css */
